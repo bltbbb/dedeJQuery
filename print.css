@@ -1,0 +1,49 @@
+@media all and (max-width:767px) 
+		 {
+			.navRight{margin:0;}
+			.logo aside{padding:0;}
+			.banner{margin:0 2%;}
+			.banner dt{float:none;width:100%;padding:0}
+			.banner dt img{width:100%;height: 100px;}
+			.banner dd{width:100%;}
+			.banner dd h3{padding:0;margin:0;}
+			.banner dd p{margin-bottom: 10px;}
+			.bannerWrap{background: #fff;}
+			.contentTopleft{width:100%;}
+			.Projects li{width:100%;}
+			.members li{width:100%;height:auto;}
+			.members img{width:50%;}
+			.contentTop aside{padding-left:0;padding-bottom: 40px;float:none;width:100%;}
+			.footerNav h3{width:100%;margin-left:0;}
+			.books{width:100%;margin-left:0;}
+			#footerLinks{float:none;width:100%;margin: 0 -10%;}
+			.ad{float:none;width:100%;text-align: center;margin-top:20px;}
+			.ad ul{margin-left:5%;}
+			.Resources .jQueryImg a{width:277px;}
+			
+		}
+	@media all  and (max-width: 600px) 
+	{
+		.navLeft{display: none;}
+		.navRight{float:none;}
+		.logo h1,.logo aside{float:none;width:100%;text-align: center;padding:0;}
+		.menu{border: none;background: none;border-radius: 0;box-shadow: none;}
+		.menuNav{width:100%;}
+		.menuNav li a{padding:0 2px;font-size: 12px;}
+		.search{width:88%;margin:0 4%;}
+		.banner,.bannerWrap{border-radius: 10px 10px 0 0 ;}
+		#footerLinks{margin: 0;}
+		.books li{float:none;width:100%;padding-bottom: 10px;}
+	}
+	@media all and (max-width:480px )
+	 {
+		.ad ul{margin-left: 15%;}
+		.banner{margin: 0 5%;}
+		.content{padding:15px 5% 17px;}
+		.banner dd{padding:0;}
+		#nav,.menuNav{display: none;}
+		.logo img{width:55%;}
+		.logo aside img{width:68%;}
+		.select{display: block;width:95%;margin: 0 8px 15px;}
+		select{width:100%;}
+	}	
